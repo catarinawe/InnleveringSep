@@ -1,11 +1,9 @@
 function onVoiceClick() {
   var textElement = document.getElementById("voiceText");
-  if(textElement.className.indexOf('reading') > -1) {
-    responsiveVoice.cancel();
-    textElement.className = textElement.className.replace("reading", '')
-    return;
-  } else {
-    textElement.className += 'reading';
+
+  if (responsiveVoice.isPlaying()) {
+      responsiveVoice.cancel()
+      return;
   }
 
   var text = textElement.innerHTML;
