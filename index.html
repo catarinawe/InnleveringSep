@@ -12,9 +12,13 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div class="w3-top navbar">
   <ul class="w3-navbar" id="myNavbar">
     <li><a href="#" class="w3-padding-large">HOME</a></li>
+  </ul>
+  <ul class="spraak">
+      <li><img src="assets/icons/1474825336_United-Kingdom.png" /></li>
+      <li><img src="assets/icons/1474825377_Norway.png" /></li>
   </ul>
 </div>
 
@@ -184,11 +188,11 @@ function onClick(element) {
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
-    var navbar = document.getElementById("myNavbar");
+    var navbar = document.getElementsByClassName("navbar")[0];
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+        navbar.className = "w3-top navbar " + "w3-navbar" + " navbarMoving w3-card-2" + " w3-animate-top" + " w3-white";
     } else {
-        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+        navbar.className = navbar.className.replace(" navbarMoving w3-card-2 w3-animate-top w3-white", "");
     }
 }
 </script>

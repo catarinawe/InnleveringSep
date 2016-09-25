@@ -48,3 +48,22 @@ body, html {
         background-attachment: scroll;
     }
 }
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+}
+
+.navbarMoving {
+    position:fixed;
+}
+
+.spraak {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.spraak li {
+    display: inline;
+}
