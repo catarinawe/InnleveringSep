@@ -58,6 +58,22 @@ body, html {
     position:fixed;
 }
 
+footer {
+    margin-top: 40px;
+}
+
+.severdighet {
+    border:1px solid;
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.lang a{
+    padding: 0px !important;
+}
+
 .spraak {
     list-style-type: none;
     margin: 0;

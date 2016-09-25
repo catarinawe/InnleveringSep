@@ -14,7 +14,7 @@ function onVoiceClick() {
   if(lang == 'en') {
       responsiveVoice.speak(text, 'UK English Female');
   }
-  if(lang == 'ge') {
+  if(lang == 'de') {
       responsiveVoice.speak(text, 'Deutsch Female');
   }
   if(lang == 'pl') {
