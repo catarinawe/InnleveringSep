@@ -71,6 +71,7 @@ footer {
     display: block;
     margin: auto;
     margin-top: 25px;
+    text-align: center;
    
 
         
@@ -112,4 +113,9 @@ footer {
 
 .googlestyle .w3-content{
     margin:0px !important;
+}
+
+#picturecollage img {
+    margin: auto;
+    display: block;
 }
