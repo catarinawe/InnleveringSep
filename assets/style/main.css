@@ -65,11 +65,14 @@ footer {
 }
 
 .severdighet {
-    border:2px solid;
-    width: 400px;
+    margin-top:80px !important;
+    
+    width: 800px;
     display: block;
     margin: auto;
     margin-top: 25px;
+   
+
         
 }
 
@@ -103,9 +106,10 @@ footer {
 
 .googlestyle{
     display:flex;
-    margin-right: 400px;
+   justify-content:center;
 
-    
-    
+}
 
+.googlestyle .w3-content{
+    margin:0px !important;
 }
